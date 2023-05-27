@@ -1,0 +1,59 @@
+.seccion_main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding-top: 6.9rem;
+  background-color: rgba(13, 24, 87, 0.8705882353);
+}
+@media (max-width: 1000px) {
+  .seccion_main {
+    height: 130vh;
+  }
+}
+.seccion_main .titulos_main {
+  width: 50%;
+}
+.seccion_main .titulos_main .h1_main {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 5.2rem;
+  text-transform: capitalize;
+  margin: 6.2rem auto;
+  margin-left: 1.5rem;
+  line-height: normal;
+}
+.seccion_main .titulos_main .parrafo_main {
+  color: #fff;
+  font-size: 2.1rem;
+  padding: 0.8rem 2rem;
+  line-height: normal;
+}
+.seccion_main .titulos_main .btn_main {
+  width: 23rem;
+  height: 6rem;
+  border: 3px solid #09aff4;
+  border-radius: 0 1.5rem;
+  color: #09aff4;
+  font-size: 1.4rem;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  transition: background-color 1s;
+}
+.seccion_main .titulos_main .btn_main .parrafo_start {
+  margin: 0.5rem auto;
+  cursor: pointer;
+}
+.seccion_main .titulos_main .btn_main:hover {
+  background-color: #09aff4;
+  color: #fff;
+}
+.seccion_main .container_img_main {
+  width: 50%;
+}
+.seccion_main .container_img_main .imagen_main {
+  width: 90%;
+  height: auto;
+  margin-left: 3rem;
+}

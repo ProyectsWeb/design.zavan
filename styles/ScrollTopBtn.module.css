@@ -1,0 +1,40 @@
+/* .scroll_top_btn{
+    position: fixed;
+    z-index: 999;       
+    bottom: 10vh;       
+    right: calc(2.25rem + 1vw);    
+    width: 5.8rem;          
+    height: 5.8rem;         
+    border-radius: .8rem;       
+    background-color: #09aff4;
+    color: #fff;
+    display: flex;  
+    align-items: center; 
+    justify-content: center;        
+    transition: background-color 1s;
+    i{                        
+      font-size: 3rem;                        
+    }
+    &:hover{
+        cursor: pointer;            
+        outline: 0;           
+        background-color: #0882b6;          
+    }
+}
+
+.rojo{
+  background-color: red;
+}
+
+.verde{
+    background-color: green; 
+}
+
+.pink{
+    background-color: pink;
+}
+
+ .hidden{
+    visibility: hidden;
+    opacity: 0;
+}  */

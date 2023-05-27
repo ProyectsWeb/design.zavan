@@ -1,0 +1,108 @@
+.eleccion {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #030929;
+  height: auto;
+  margin: 25rem auto 0rem;
+}
+.eleccion .container_logo {
+  width: 90%;
+}
+.eleccion .container_logo .img_eleccion {
+  width: 100%;
+  height: auto;
+}
+.eleccion .container_logo .btn_contacto {
+  width: 16rem;
+  height: 5.5rem;
+  border: 3px solid #09aff4;
+  border-radius: 0 1rem;
+  color: #09aff4;
+  font-size: 1.4rem;
+  margin: 9rem auto;
+  text-align: center;
+  transition: background-color 1s;
+}
+.eleccion .container_logo .btn_contacto:hover {
+  background-color: #09aff4;
+  color: #fff;
+}
+.eleccion .container_logo .btn_contacto .parrafo_contacto {
+  margin: 0.5rem auto;
+  cursor: pointer;
+}
+.eleccion .container_eleccion {
+  width: 90%;
+  background-color: #030929;
+  color: #fff;
+  font-family: "Jost", "sans-serif";
+}
+.eleccion .container_eleccion .span_elejir {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Jost", "sans-serif";
+  color: #09aff4;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+.eleccion .container_eleccion .h2_elejir {
+  font-size: 4.5rem;
+  padding-left: 1.5rem;
+  line-height: normal;
+  font-family: "Jost", "sans-serif";
+}
+.eleccion .container_eleccion .p_elejir {
+  margin: 1.5rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+.eleccion .container_eleccion .info_item {
+  width: 95%;
+  display: flex;
+  margin: 0 auto;
+  margin: 2.5rem auto;
+}
+.eleccion .container_eleccion .info_item .span_info_item {
+  color: #09aff4;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-right: 2rem;
+  font-family: "Jost", "sans-serif";
+}
+.eleccion .container_eleccion .info_item .container_info .h5_info_item {
+  font-size: 2.5rem;
+}
+.eleccion .container_eleccion .info_item .container_info .p_info_item {
+  margin-top: 1rem;
+  font-size: 1.9rem;
+  line-height: normal;
+}
+.eleccion .container_eleccion .btn_saber_mas {
+  display: inline-block;
+  align-items: center;
+  width: 30%;
+  height: 5rem;
+  border: 3px solid #09aff4;
+  border-radius: 0 1rem;
+  color: #09aff4;
+  font-size: 2.1rem;
+  text-decoration: none;
+  margin-left: 30%;
+  margin-top: 6rem;
+  text-align: center;
+  transition: background-color 1s;
+}
+.eleccion .container_eleccion .btn_saber_mas:hover {
+  background-color: #09aff4;
+  color: #fff;
+}
+@media (max-width: 900px) {
+  .eleccion {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 13rem;
+  }
+}

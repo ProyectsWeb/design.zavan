@@ -1,0 +1,29 @@
+.redes_sociales {
+  display: flex;
+  height: 3.5rem;
+}
+.redes_sociales ul {
+  display: flex;
+  width: 70%;
+}
+.redes_sociales ul li {
+  color: #fff;
+  list-style-type: none;
+  width: 6rem;
+}
+.redes_sociales ul li a {
+  font-size: 2.2rem;
+  display: flex;
+  padding-left: 0.3rem;
+  text-decoration: none;
+  width: 3rem;
+  color: #fff;
+}
+.redes_sociales ul li a i {
+  margin: 1rem;
+}
+.redes_sociales ul li a i:hover {
+  font-size: 2rem;
+  color: #09aff4;
+  transition: color 0.3s ease-in-out 0s;
+}

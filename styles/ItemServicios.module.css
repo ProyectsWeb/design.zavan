@@ -1,0 +1,71 @@
+.item_servicios {
+  background-color: #030929;
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.item_servicios .container_servicios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: 0 auto;
+}
+@media (max-width: 1000px) {
+  .item_servicios .container_servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 770px) {
+  .item_servicios .container_servicios {
+    grid-template-columns: 1fr;
+  }
+}
+.item_servicios .container_servicios .box_servicio {
+  width: 30rem;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #09aff4;
+  border-radius: 1rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  transition: background-color 2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item_servicios .container_servicios .box_servicio i {
+  font-size: 5rem;
+  color: #09aff4;
+}
+.item_servicios .container_servicios .box_servicio h3 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  line-height: normal;
+}
+.item_servicios .container_servicios .box_servicio .p_descripcion {
+  margin-top: 2rem;
+  line-height: normal;
+  font-family: "Jost", "sans-serif";
+}
+.item_servicios .container_servicios .box_servicio .link_read a {
+  display: inline-block;
+  color: #09aff4;
+  margin-top: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.item_servicios .container_servicios .box_servicio .link_read a i {
+  margin-left: 0.5rem;
+  width: 2rem;
+  font-size: 2rem;
+}
+.item_servicios .container_servicios .box_servicio:hover {
+  background-color: #09aff4;
+}
+.item_servicios .container_servicios .box_servicio:hover .fa-file-code-o, .item_servicios .container_servicios .box_servicio:hover .fa-code, .item_servicios .container_servicios .box_servicio:hover .fa-mobile, .item_servicios .container_servicios .box_servicio:hover .fa-search, .item_servicios .container_servicios .box_servicio:hover .fa-cart-arrow-down, .item_servicios .container_servicios .box_servicio:hover .fa-cogs, .item_servicios .container_servicios .box_servicio:hover .fa-smile-o, .item_servicios .container_servicios .box_servicio:hover .fa-users {
+  color: #fff;
+}
+.item_servicios .container_servicios .box_servicio:hover a {
+  color: #fff;
+}

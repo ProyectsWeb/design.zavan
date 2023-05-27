@@ -1,0 +1,46 @@
+.seccion_presentacion_1, .seccion_presentacion_2 {
+  background-color: rgba(0, 0, 0, 0.7529411765);
+  height: 80vh;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+}
+@media (max-width: 1000px) {
+  .seccion_presentacion_1, .seccion_presentacion_2 {
+    padding-bottom: 50rem;
+  }
+}
+.seccion_presentacion_1 .presentacion, .seccion_presentacion_2 .presentacion {
+  width: 100%;
+  height: 80vh;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.seccion_presentacion_1 .presentacion .design, .seccion_presentacion_2 .presentacion .design {
+  display: inline-block;
+  text-align: center;
+  font-size: 4.5rem;
+  width: 100%;
+  margin: 3rem auto;
+}
+.seccion_presentacion_1 .presentacion .design span, .seccion_presentacion_2 .presentacion .design span {
+  color: #09aff4;
+}
+.seccion_presentacion_1 .presentacion .p_presentacion, .seccion_presentacion_2 .presentacion .p_presentacion {
+  margin: 0 auto;
+  width: 77%;
+  border: 1px solid #09aff4;
+  border-radius: 0.5rem;
+  font-size: 2.7rem;
+  padding: 4rem;
+  line-height: 1.3;
+}
+
+.seccion_presentacion_2 .presentacion {
+  background-color: #fff;
+  color: #000;
+}
+@media (max-width: 1000px) {
+  .seccion_presentacion_2 .presentacion {
+    height: 140rem;
+  }
+}

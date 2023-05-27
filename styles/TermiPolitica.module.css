@@ -1,0 +1,11 @@
+.terminos_politicas {
+  background-color: #030929;
+  display: flex;
+  justify-content: flex-end;
+  height: 5rem;
+}
+.terminos_politicas a {
+  margin-right: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
