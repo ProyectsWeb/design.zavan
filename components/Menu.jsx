@@ -18,7 +18,8 @@ function Menu({menu})  {
   },[menu]);  
 
   return (
-    <nav  className={`${styles.menu} ${menuY}`}>
+   /*  <nav  className={`${styles.menu} ${menuY}`}> */
+    <nav  className={`${styles.menu}`}>
       <Link className={styles.link_menu} href="/">Inicio</Link>
       <Link className={styles.link_menu} href="/nosotros">Nosotros</Link>
       <Link className={styles.link_menu} href="/#servicios">Servicios</Link>

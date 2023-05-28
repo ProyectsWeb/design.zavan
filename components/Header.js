@@ -22,12 +22,12 @@ export const Header = () => {
 
        {menu ? <Menu menu={menu}/> : <Menu menu={menu} />} 
      
-      <div className={styles.btn_item}>      
-        <BtnMenuBars viewMenu={viewMenu} /> 
+      {/* <div className={styles.btn_item}>  */}     
+      {/*   <BtnMenuBars viewMenu={viewMenu} />  */}
         {/* <div className={styles.container_busqueda}>
           <i className="fa fa-search" aria-hidden="true"></i>       
         </div>   */}       
-      </div>
+     {/*  </div> */}
 
     </div>
   )

@@ -3,6 +3,7 @@
   height: 8rem;
   background: linear-gradient(90deg, rgb(0, 0, 0) 42%, rgb(13, 24, 87) 100%);
   align-items: center;
+  justify-content: baseline;
 }
 .header .container_logo {
   width: 31%;
@@ -65,8 +66,11 @@
   color: #fff;
   padding-left: 1rem;
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .header {
+    height: 25rem;
+    background-color: red;
     flex-direction: column;
+    background: linear-gradient(90deg, #000, 100%, rgb(14, 15, 22) 100%);
   }
 }

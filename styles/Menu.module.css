@@ -2,6 +2,16 @@
   width: 55%;
   transition: all 2s;
   text-align: end;
+  /* @media (max-width: 900px){
+  &{
+     display: flex;    
+     flex-direction: column;
+
+    text-align: center;
+    background-color: red;
+
+   }
+  }    */
 }
 .menu .link_menu {
   color: #fff;
@@ -19,11 +29,6 @@
 }
 .menu .link_menu:hover {
   color: #09aff4;
-}
-@media (max-width: 900px) {
-  .menu {
-    display: none;
-  }
 }
 
 .menu_vertical {
