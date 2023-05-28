@@ -78,3 +78,10 @@
   height: auto;
   margin-left: 3rem;
 }
+
+@media (max-width: 280px) {
+  .seccion_main {
+    padding-top: 0;
+    height: auto;
+  }
+}

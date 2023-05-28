@@ -74,3 +74,12 @@
     background: linear-gradient(90deg, #000, 100%, rgb(14, 15, 22) 100%);
   }
 }
+
+@media (max-width: 280px) {
+  .header {
+    height: 50rem;
+  }
+  .header .container_logo {
+    height: 70rem;
+  }
+}

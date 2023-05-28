@@ -54,3 +54,19 @@
   background-color: #09aff4;
   color: #fff;
 }
+
+@media (max-width: 280px) {
+  .seccion_servicios {
+    height: auto;
+    flex-direction: column;
+    font-size: 1.5rem;
+  }
+  .seccion_servicios .box_servicios {
+    width: 100%;
+    height: auto;
+  }
+  .seccion_servicios .box_servicios .h2_servicios {
+    font-size: 3.7rem;
+    text-align: center;
+  }
+}

@@ -33,3 +33,9 @@
     margin-top: 32rem;
   }
 }
+
+@media (max-width: 280px) {
+  .redes_sociales {
+    margin-top: 0;
+  }
+}

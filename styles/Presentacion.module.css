@@ -35,6 +35,17 @@
   line-height: 1.3;
 }
 
+@media (max-width: 280px) {
+  .seccion_presentacion_1 .presentacion .design, .seccion_presentacion_2 .presentacion .design {
+    font-size: 3.5rem;
+  }
+  .seccion_presentacion_1 .presentacion .p_presentacion, .seccion_presentacion_2 .presentacion .p_presentacion {
+    width: 95%;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
 .seccion_presentacion_2 .presentacion {
   background-color: #fff;
   color: #000;

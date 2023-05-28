@@ -69,3 +69,13 @@
 .item_servicios .container_servicios .box_servicio:hover a {
   color: #fff;
 }
+
+@media (max-width: 280px) {
+  .item_servicios {
+    width: 100%;
+  }
+  .item_servicios .container_servicios .box_servicio {
+    width: 100%;
+    padding: 0.5rem;
+  }
+}
