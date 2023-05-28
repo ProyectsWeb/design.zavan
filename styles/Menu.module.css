@@ -2,16 +2,6 @@
   width: 55%;
   transition: all 2s;
   text-align: end;
-  /* @media (max-width: 900px){
-  &{
-     display: flex;    
-     flex-direction: column;
-
-    text-align: center;
-    background-color: red;
-
-   }
-  }    */
 }
 .menu .link_menu {
   color: #fff;
@@ -31,13 +21,15 @@
   color: #09aff4;
 }
 
-@media (max-width: 280px) {
+@media (min-width: 280px) {
   .menu {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100rem;
     text-align: center;
+  }
+  .menu .link_menu {
+    width: auto;
   }
 }
 /* .menu_vertical{

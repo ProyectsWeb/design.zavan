@@ -6,6 +6,7 @@ import styles from '@/styles/Layout.module.css'
 import { Header } from './Header'
 import Footer from './Footer'
 import TermiPolitica from './TermiPolitica'
+import Image from 'next/image'
 
 
 const Layout = ({children, title, description}) => { 
@@ -32,6 +33,7 @@ function subirMenu(e){
   }); 
 }
 
+
   return (
     <div className={styles.container}> 
      <Head>          
@@ -40,7 +42,7 @@ function subirMenu(e){
         <link rel="icon" href="/favicon.ico" />            
         <title>{title}</title>
      </Head> 
-     
+    
      <Header />     
 
       <main ref={seccMain}>
@@ -49,9 +51,9 @@ function subirMenu(e){
 
      <Footer />    
 
-    <buttom ref={btnScroll} className={`${styles.scroll_top_btn} ${bagBtn}`} onClick={(e)=>{ subirMenu(e) }}>
+    {/* <buttom ref={btnScroll} className={`${styles.scroll_top_btn} ${bagBtn}`} onClick={(e)=>{ subirMenu(e) }}>
       <i className="fa fa-long-arrow-up" aria-hidden="true"></i>
-    </buttom>
+    </buttom> */}
     <TermiPolitica />
     <Script src="https://use.fontawesome.com/79d2d8e64e.js" />
     </div>

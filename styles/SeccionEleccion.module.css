@@ -99,10 +99,52 @@
   background-color: #09aff4;
   color: #fff;
 }
-@media (max-width: 900px) {
+
+@media (min-width: 280px) {
   .eleccion {
-    display: flex;
+    margin: 0 auto;
     flex-direction: column;
-    padding-bottom: 13rem;
+  }
+  .eleccion .container_logo {
+    width: 100%;
+  }
+  .eleccion .container_logo .btn_contacto {
+    width: 95%;
+  }
+  .eleccion .container_eleccion {
+    width: 100%;
+  }
+  .eleccion .container_eleccion .span_elejir {
+    width: 100%;
+    margin: 1.5rem auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .eleccion .container_eleccion .h2_elejir {
+    font-size: 3rem;
+    padding-left: 0;
+    text-align: center;
+    font-weight: 400;
+  }
+  .eleccion .container_eleccion .p_elejir {
+    margin: 3rem 0.8rem;
+    font-size: 1.8rem;
+  }
+  .eleccion .container_eleccion .info_item {
+    flex-direction: column;
+  }
+  .eleccion .container_eleccion .info_item .span_info_item {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .eleccion .container_eleccion .info_item .container_info {
+    padding-left: 1rem;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+  .eleccion .container_eleccion .btn_saber_mas {
+    margin: 0 auto;
+    width: 100%;
   }
 }

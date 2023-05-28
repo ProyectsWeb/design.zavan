@@ -37,8 +37,8 @@
   opacity: 0;
 }
 
-@media (max-width: 280px) {
+@media (min-width: 280px) {
   .container {
-    width: 30rem;
+    width: 28rem;
   }
 }

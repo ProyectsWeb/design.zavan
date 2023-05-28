@@ -55,7 +55,7 @@
   color: #fff;
 }
 
-@media (max-width: 280px) {
+@media (min-width: 280px) {
   .seccion_servicios {
     height: auto;
     flex-direction: column;
@@ -68,5 +68,9 @@
   .seccion_servicios .box_servicios .h2_servicios {
     font-size: 3.7rem;
     text-align: center;
+  }
+  .seccion_servicios .btn_servicios {
+    width: 95%;
+    margin: 5rem auto;
   }
 }

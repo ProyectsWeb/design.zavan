@@ -4,11 +4,6 @@
   margin: 0 auto;
   font-family: "Lato", sans-serif;
 }
-@media (max-width: 1000px) {
-  .seccion_presentacion_1, .seccion_presentacion_2 {
-    padding-bottom: 50rem;
-  }
-}
 .seccion_presentacion_1 .presentacion, .seccion_presentacion_2 .presentacion {
   width: 100%;
   height: 80vh;
@@ -35,23 +30,31 @@
   line-height: 1.3;
 }
 
-@media (max-width: 280px) {
+@media (min-width: 280px) {
+  .seccion_presentacion_1, .seccion_presentacion_2 {
+    height: auto;
+    background-color: #0d1857;
+  }
+  .seccion_presentacion_1 .presentacion, .seccion_presentacion_2 .presentacion {
+    height: auto;
+    padding-bottom: 4rem;
+    font-size: 1.5rem;
+  }
   .seccion_presentacion_1 .presentacion .design, .seccion_presentacion_2 .presentacion .design {
+    text-align: center;
     font-size: 3.5rem;
+    width: 100%;
   }
   .seccion_presentacion_1 .presentacion .p_presentacion, .seccion_presentacion_2 .presentacion .p_presentacion {
+    margin: 4rem auto;
     width: 95%;
-    padding: 1rem;
-    font-size: 2rem;
-    text-align: center;
+    font-size: 2.2rem;
+    font-size: 1.9rem;
+    padding: 0.8rem;
+    line-height: 1.5;
   }
 }
 .seccion_presentacion_2 .presentacion {
   background-color: #fff;
   color: #000;
-}
-@media (max-width: 1000px) {
-  .seccion_presentacion_2 .presentacion {
-    height: 140rem;
-  }
 }

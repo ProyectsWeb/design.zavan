@@ -43,31 +43,13 @@
   width: 80%;
   height: 4.5rem;
 }
-@media (max-width: 1060px) {
-  .footer .container_footer .container_logo_footer .btn_suscribir {
-    width: 90%;
-    height: 8rem;
-    flex-direction: column;
-  }
-}
 .footer .container_footer .container_logo_footer .btn_suscribir .input_footer {
   width: 65%;
-}
-@media (max-width: 1080px) {
-  .footer .container_footer .container_logo_footer .btn_suscribir .input_footer {
-    width: 100%;
-    height: 4rem;
-  }
 }
 .footer .container_footer .container_logo_footer .btn_suscribir .input_footer::placeholder {
   font-size: 1.7rem;
   letter-spacing: 1px;
   padding-left: 1.4rem;
-}
-@media (max-width: 1060px) {
-  .footer .container_footer .container_logo_footer .btn_suscribir .input_footer::placeholder {
-    text-align: center;
-  }
 }
 .footer .container_footer .container_logo_footer .btn_suscribir .btm_footer {
   width: 40%;
@@ -77,12 +59,6 @@
   cursor: pointer;
   transition: background-color 1s;
 }
-@media (max-width: 1060px) {
-  .footer .container_footer .container_logo_footer .btn_suscribir .btm_footer {
-    width: 100%;
-    text-align: center;
-  }
-}
 .footer .container_footer .container_logo_footer .btn_suscribir .btm_footer:hover {
   background-color: #09aff4;
 }
@@ -90,11 +66,6 @@
   margin: 0.5rem;
   font-size: 1.6rem;
   font-family: "Jost", "sans-serif";
-}
-@media (max-width: 1060px) {
-  .footer .container_footer .container_logo_footer .btn_suscribir .btm_footer p {
-    width: 100%;
-  }
 }
 .footer .container_footer .enlaces_footer, .footer .container_footer .recursos_footer, .footer .container_footer .contacto_footer {
   display: flex;
@@ -108,10 +79,38 @@
   text-decoration: none;
   color: #fff;
 }
-@media (max-width: 1060px) {
+
+@media (min-width: 280px) {
   .footer .container_footer {
-    display: grid;
-    grid-template-columns: 1fr;
     height: auto;
+    flex-direction: column;
+  }
+  .footer .container_footer .container_logo_footer {
+    width: 100%;
+    margin-left: 0;
+  }
+  .footer .container_footer .container_logo_footer .logo {
+    width: 100%;
+  }
+  .footer .container_footer .container_logo_footer .p_footer {
+    text-align: center;
+  }
+  .footer .container_footer .container_logo_footer .btn_suscribir {
+    width: 100%;
+    height: 10rem;
+    flex-direction: column;
+  }
+  .footer .container_footer .container_logo_footer .btn_suscribir .input_footer {
+    width: 100%;
+    height: 4rem;
+  }
+  .footer .container_footer .container_logo_footer .btn_suscribir .btm_footer {
+    width: 100%;
+  }
+  .footer .container_footer .span_footer {
+    text-align: center;
+  }
+  .footer .container_footer .enlaces_footer, .footer .container_footer .recursos_footer, .footer .container_footer .contacto_footer {
+    width: 100%;
   }
 }
