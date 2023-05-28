@@ -27,3 +27,8 @@
   color: #09aff4;
   transition: color 0.3s ease-in-out 0s;
 }
+@media (max-width: 600px) {
+  .redes_sociales {
+    margin-top: 2rem;
+  }
+}

@@ -22,11 +22,3 @@ export default function Home({data}) {
    </>
   )
 }
-
-/* export async function getStaticProps(){   
-    const data = {id: 1, titleWindow: "Bienvenidos", titleMain: "Encuentra lo que buscas", h1Main: "Beneficios"};
-       
-  return {
-    props: {data }
-  }
-} */
