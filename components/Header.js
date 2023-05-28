@@ -21,13 +21,13 @@ export const Header = () => {
         </div>      
 
        {menu ? <Menu menu={menu}/> : <Menu menu={menu} />} 
-          
-      {/* <div className={styles.btn_item}>      
+     
+      <div className={styles.btn_item}>      
         <BtnMenuBars viewMenu={viewMenu} /> 
-        <div className={styles.container_busqueda}>
+        {/* <div className={styles.container_busqueda}>
           <i className="fa fa-search" aria-hidden="true"></i>       
-        </div>         
-      </div> */}
+        </div>   */}       
+      </div>
 
     </div>
   )
