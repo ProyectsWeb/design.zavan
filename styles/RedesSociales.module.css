@@ -28,7 +28,7 @@
   transition: color 0.3s ease-in-out 0s;
 }
 
-@media (min-width: 280px) {
+@media (max-width: 280px) {
   .redes_sociales {
     justify-content: center;
   }

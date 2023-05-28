@@ -21,7 +21,7 @@
   color: #09aff4;
 }
 
-@media (min-width: 280px) {
+@media (max-width: 280px) {
   .menu {
     display: flex;
     flex-direction: column;
