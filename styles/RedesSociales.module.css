@@ -29,6 +29,7 @@
 }
 @media (max-width: 600px) {
   .redes_sociales {
-    margin-top: 2rem;
+    justify-content: center;
+    margin-top: 32rem;
   }
 }
