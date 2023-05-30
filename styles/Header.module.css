@@ -4,10 +4,12 @@
   background: linear-gradient(90deg, rgb(0, 0, 0) 42%, rgb(13, 24, 87) 100%);
   align-items: center;
   justify-content: baseline;
+  /* height: 12rem; */
 }
 .header .container_logo {
   width: 31%;
-  height: 12rem;
+  /* height: 12rem;   */
+  height: auto;
   border-radius: 1rem;
   background-color: black;
   border-radius: 0 0 15rem 0;
@@ -21,7 +23,7 @@
 .header .container_logo .logo {
   width: 27rem;
   height: auto;
-  overflow: hidden;
+  /*  overflow: hidden;  */
 }
 .header .btn_item {
   display: flex;
@@ -37,7 +39,7 @@
   padding-left: 1rem;
 }
 
-@media (max-width: 280px) {
+@media (min-width: 280px) {
   .header {
     flex-direction: column;
     height: auto;

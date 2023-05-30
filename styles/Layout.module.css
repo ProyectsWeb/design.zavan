@@ -1,13 +1,14 @@
 .container {
-  width: auto;
-  height: 120rem;
-  background-color: #0d1857;
-  background-image: url("/img/collage-fondo-programacion.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 100%;
-  object-fit: contain;
+  /*  width: auto;  */
+  width: 100vw;
+  background-color: rgba(13, 24, 87, 0.1764705882);
+}
+.container .img_fondo {
+  /* width: 100%; */
+  width: 100vw;
+  height: auto;
+  position: fixed;
+  z-index: -10;
 }
 .container .scroll_top_btn {
   position: fixed;
@@ -37,8 +38,8 @@
   opacity: 0;
 }
 
-@media (max-width: 280px) {
+@media (min-width: 280px) {
   .container {
-    width: 28rem;
+    width: 100%;
   }
 }

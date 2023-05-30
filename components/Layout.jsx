@@ -42,7 +42,12 @@ function subirMenu(e){
         <link rel="icon" href="/favicon.ico" />            
         <title>{title}</title>
      </Head> 
-    
+    <Image src={'/img/collage-fondo-programacion.jpg'}
+      width={500}
+      height={500}
+      className={styles.img_fondo}
+      alt='imagen de fondo programacion'
+    />
      <Header />     
 
       <main ref={seccMain}>

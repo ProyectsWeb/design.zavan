@@ -55,7 +55,7 @@
   color: #fff;
 }
 
-@media (max-width: 280px) {
+@media (min-width: 280px) {
   .seccion_servicios {
     height: auto;
     flex-direction: column;

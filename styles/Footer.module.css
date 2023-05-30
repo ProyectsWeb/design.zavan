@@ -80,7 +80,7 @@
   color: #fff;
 }
 
-@media (max-width: 280px) {
+@media (min-width: 280px) {
   .footer .container_footer {
     height: auto;
     flex-direction: column;

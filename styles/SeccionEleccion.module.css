@@ -100,7 +100,7 @@
   color: #fff;
 }
 
-@media (max-width: 280px) {
+@media (min-width: 280px) {
   .eleccion {
     margin: 0 auto;
     flex-direction: column;
