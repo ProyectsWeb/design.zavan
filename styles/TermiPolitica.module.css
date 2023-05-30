@@ -10,7 +10,14 @@
   text-decoration: none;
 }
 
-@media (min-width: 280px) {
+/* @media (min-width: 280px){
+    .terminos_politicas{
+        height: 10rem;        
+       text-align: center;
+       flex-direction: column;      
+    }
+} */
+@media (max-width: 540px) {
   .terminos_politicas {
     height: 10rem;
     text-align: center;

@@ -53,7 +53,32 @@
   margin-left: 3rem;
 }
 
-@media (min-width: 280px) {
+/* @media(min-width: 280px){
+  .seccion_main{ 
+
+    height: auto;    
+    padding-top: 0;
+    padding-bottom: 3rem;      
+    flex-direction: column-reverse;
+    .titulos_main{         
+      width: 100%; 
+      .h1_main{
+        font-size: 3.2rem;
+        margin: 3rem 1rem;
+        text-align: center;
+      }
+    }
+    .container_img_main{       
+      width: 100%; 
+      .imagen_main{           
+        width: 100%;  
+        margin-left: 0;   
+
+       }    
+    }
+  }
+} */
+@media (max-width: 540px) {
   .seccion_main {
     height: auto;
     padding-top: 0;

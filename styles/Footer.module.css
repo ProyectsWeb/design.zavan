@@ -80,7 +80,47 @@
   color: #fff;
 }
 
-@media (min-width: 280px) {
+/* @media (min-width: 280px){
+   .footer{
+
+      .container_footer{    
+      height: auto;      
+      flex-direction: column;
+      .container_logo_footer{         
+         width: 100%; 
+         margin-left: 0;
+         .logo{                      
+            width: 100%;          
+          }
+          .p_footer{            
+            text-align: center;                    
+            }
+
+            .btn_suscribir{
+               width: 100%;
+               height: 10rem;
+              flex-direction: column;
+              .input_footer{
+               width: 100%;  
+               height: 4rem;                 
+             }
+             .btm_footer{
+               width: 100%;              
+             }
+            }
+      }
+
+      .span_footer{          
+        text-align: center;        
+      } 
+      .enlaces_footer, .recursos_footer, .contacto_footer{
+         width: 100%;       
+      }
+     }
+   }
+}
+ */
+@media (max-width: 540px) {
   .footer .container_footer {
     height: auto;
     flex-direction: column;

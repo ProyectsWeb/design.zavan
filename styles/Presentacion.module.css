@@ -30,7 +30,41 @@
   line-height: 1.3;
 }
 
-@media (min-width: 280px) {
+/* @media (min-width: 280px){
+    .seccion_presentacion_1{        
+        height: auto;
+        background-color:#0d1857;  
+    .presentacion{        
+        height: auto;
+        padding-bottom: 4rem;
+        font-size: 1.5rem;
+        .design{           
+            text-align: center;                    
+            font-size: 3.5rem;           
+            width: 100%;           
+        }
+
+        .p_presentacion{            
+            margin: 4rem auto;  
+            width: 95%;  
+            font-size: 2.2rem; 
+            font-size: 1.9rem; 
+            padding: .8rem; 
+            line-height: 1.5;
+        }
+    }   
+    }
+}
+
+.seccion_presentacion_2{
+    @extend .seccion_presentacion_1;     
+    .presentacion{
+        background-color: #fff; 
+        color: #000;      
+    }  
+}
+ */
+@media (max-width: 540px) {
   .seccion_presentacion_1, .seccion_presentacion_2 {
     height: auto;
     background-color: #0d1857;

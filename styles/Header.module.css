@@ -39,7 +39,19 @@
   padding-left: 1rem;
 }
 
-@media (min-width: 280px) {
+/* @media(min-width: 280px){
+   .header{
+       flex-direction: column;        
+       height: auto;               
+       .container_logo{  
+           width: 100%; 
+           .logo{                 
+               width: 100%;                                    
+            }            
+       }
+   }
+} */
+@media (max-width: 540px) {
   .header {
     flex-direction: column;
     height: auto;

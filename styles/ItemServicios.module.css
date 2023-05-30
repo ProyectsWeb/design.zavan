@@ -59,7 +59,19 @@
   color: #fff;
 }
 
-@media (min-width: 280px) {
+/* @media (min-width: 280px){
+  .item_servicios{
+
+    .container_servicios{
+      width: 95%;
+      grid-template-columns: repeat(1, 1fr); 
+      .box_servicio{ 
+        width: 95%;        
+      }
+    }
+  }
+} */
+@media (max-width: 540px) {
   .item_servicios .container_servicios {
     width: 95%;
     grid-template-columns: repeat(1, 1fr);

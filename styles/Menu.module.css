@@ -21,7 +21,18 @@
   color: #09aff4;
 }
 
-@media (min-width: 280px) {
+/* @media(min-width: 280px){
+  .menu{ 
+    display: flex;
+    flex-direction: column;    
+    width: 100%;   
+    text-align: center;   
+    .link_menu{ 
+      width: auto;
+    }
+  }
+} */
+@media (max-width: 540px) {
   .menu {
     display: flex;
     flex-direction: column;
