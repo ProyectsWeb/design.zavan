@@ -83,14 +83,13 @@
     width: 95%;
   }
 }
-@media (max-width: 768px) {
-  .item_servicios {
-    /* background-color: red; */
+/* @media (min-width: 768px){
+  .item_servicios{
+
+    .container_servicios{   
+
+      grid-template-columns: repeat(2, 1fr);  
+
+    }   
   }
-  .item_servicios .container_servicios {
-    /* display: grid; */
-    grid-template-columns: repeat(2, 1fr);
-    /* width: 80%;
-    margin: 0 auto; */
-  }
-}
+} */
