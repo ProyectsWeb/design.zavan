@@ -1,6 +1,15 @@
-/* .container{ 
-  width: 100%;
-} */
+.container {
+  width: 100vw;
+  /* background-color: red; */
+}
+.container .img_fondo {
+  /* width: 100%; */
+  width: 100vw;
+  height: auto;
+  position: fixed;
+  z-index: -10;
+}
+
 /* @media (min-width: 280px){ 
    .container{     
       width: 100vw;   

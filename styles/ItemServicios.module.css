@@ -58,6 +58,9 @@
 .item_servicios .container_servicios .box_servicio:hover a {
   color: #fff;
 }
+.item_servicios .container_servicios .box_servicio:hover i {
+  color: #fff;
+}
 
 /* @media (min-width: 280px){
   .item_servicios{
@@ -78,5 +81,16 @@
   }
   .item_servicios .container_servicios .box_servicio {
     width: 95%;
+  }
+}
+@media (max-width: 768px) {
+  .item_servicios {
+    /* background-color: red; */
+  }
+  .item_servicios .container_servicios {
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+    /* width: 80%;
+    margin: 0 auto; */
   }
 }

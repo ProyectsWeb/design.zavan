@@ -154,3 +154,25 @@
     width: 100%;
   }
 }
+/* @media (max-width: 768px){
+   .container_footer{
+      .container_logo_footer{
+
+
+      }
+   .btn_suscribir{
+      flex-direction: column;
+
+      .input_footer{
+         width: 100%;      
+
+           &::placeholder{                    
+               font-size: 1.7rem;
+               letter-spacing: 1px;                 
+               padding-left: 1.4rem;                     
+           }                
+       }
+
+}
+}
+} */
