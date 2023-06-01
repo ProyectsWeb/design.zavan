@@ -39,19 +39,7 @@
   padding-left: 1rem;
 }
 
-/* @media(min-width: 280px){
-   .header{
-       flex-direction: column;        
-       height: auto;               
-       .container_logo{  
-           width: 100%; 
-           .logo{                 
-               width: 100%;                                    
-            }            
-       }
-   }
-} */
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   .header {
     flex-direction: column;
     height: auto;
@@ -61,5 +49,12 @@
   }
   .header .container_logo .logo {
     width: 100%;
+  }
+}
+@media (min-width: 601px) and (max-width: 992px) {
+  .header {
+    background-color: red;
+    flex-direction: column;
+    height: auto;
   }
 }

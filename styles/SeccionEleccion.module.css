@@ -154,7 +154,7 @@
     }
 }
  */
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   .eleccion {
     margin: 0 auto;
     flex-direction: column;

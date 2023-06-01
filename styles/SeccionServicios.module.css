@@ -55,29 +55,7 @@
   color: #fff;
 }
 
-/* @media (min-width: 280px){
-    .seccion_servicios{
-        height: auto;       
-        flex-direction: column;
-        font-size: 1.5rem;       
-        .box_servicios{
-            width: 100%;
-            height: auto;
-
-           .h2_servicios{           
-            font-size: 3.7rem;
-            text-align: center;
-        }
-        }
-
-
-        .btn_servicios{ 
-            width: 95%;
-            margin: 5rem auto;          
-        }
-    }
-} */
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   .seccion_servicios {
     height: auto;
     flex-direction: column;

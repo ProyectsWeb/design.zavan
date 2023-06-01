@@ -28,12 +28,7 @@
   transition: color 0.3s ease-in-out 0s;
 }
 
-/* @media(min-width: 280px){
-    .redes_sociales {  
-     justify-content: center;
-    }
-} */
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   .redes_sociales {
     justify-content: center;
   }

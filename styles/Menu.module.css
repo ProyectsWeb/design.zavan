@@ -21,18 +21,7 @@
   color: #09aff4;
 }
 
-/* @media(min-width: 280px){
-  .menu{ 
-    display: flex;
-    flex-direction: column;    
-    width: 100%;   
-    text-align: center;   
-    .link_menu{ 
-      width: auto;
-    }
-  }
-} */
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   .menu {
     display: flex;
     flex-direction: column;
@@ -41,6 +30,11 @@
   }
   .menu .link_menu {
     width: auto;
+  }
+}
+@media (min-width: 601px) and (max-width: 992px) {
+  .menu {
+    width: 80%;
   }
 }
 /* .menu_vertical{
