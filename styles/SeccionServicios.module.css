@@ -76,11 +76,9 @@
 }
 @media (max-width: 768px) {
   .seccion_servicios {
-    /*   height: 100vh; */
-    height: auto;
-    /*  height: 70rem; */
     display: flex;
     flex-direction: column;
+    height: auto;
     align-items: center;
     justify-content: space-around;
   }

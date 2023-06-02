@@ -3,9 +3,10 @@
   display: flex;
   justify-content: flex-end;
   height: 5rem;
+  padding-bottom: 5rem;
 }
 .terminos_politicas a {
-  margin-right: 1.5rem;
+  margin-right: 2rem;
   color: #fff;
   text-decoration: none;
 }

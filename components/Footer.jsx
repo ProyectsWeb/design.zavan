@@ -25,7 +25,8 @@ const Footer = () => {
               <div className={styles.btm_footer}><p>SUSCRIBIRSE</p></div>              
            </div>
        </div>
-         
+
+        
             <div className={styles.enlaces_footer}>
               <h3>Enlaces Utiles</h3>
               <a href="#">Google</a>
@@ -43,6 +44,7 @@ const Footer = () => {
               <a href="#">correo@zavan.dev</a>
               <a href="#">Telefono</a>                        
             </div>
+        
     </div>   
   </ footer>
   )

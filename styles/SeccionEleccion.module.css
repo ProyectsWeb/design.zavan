@@ -60,8 +60,8 @@
   line-height: 1.4;
 }
 .eleccion .container_eleccion .info_item {
-  width: 95%;
   display: flex;
+  width: 95%;
   margin: 0 auto;
   margin: 2.5rem auto;
 }
@@ -100,60 +100,6 @@
   color: #fff;
 }
 
-/* @media (min-width: 280px){
-    .eleccion{
-       margin: 0 auto;   
-       flex-direction: column;
-       .container_logo{
-        width: 100%;       
-        .btn_contacto{  
-            width: 95%;
-        }
-      }
-
-      .container_eleccion{
-        width: 100%;
-        .span_elejir{   
-            width: 100%;
-            margin: 1.5rem auto;
-            text-align: center;
-            font-size: 2rem; 
-            font-weight: 400;
-        }
-        .h2_elejir{        
-            font-size: 3rem;   
-            padding-left: 0;
-            text-align: center;
-            font-weight: 400;            
-          }
-
-          .p_elejir{            
-             margin: 3rem .8rem;          
-            font-size: 1.8rem;
-
-        }
-
-        .info_item{           
-            flex-direction: column;
-            .span_info_item{
-               text-align: center;  
-               font-size: 4rem;               
-            }
-
-            .container_info{           
-            padding-left: 1rem;
-            height: auto;
-            padding-bottom: 2rem;
-            }
-        }
-        .btn_saber_mas{
-            margin: 0 auto;  
-            width: 100%;           
-          }
-      }     
-    }
-}
- */
 @media (max-width: 600px) {
   .eleccion {
     margin: 0 auto;

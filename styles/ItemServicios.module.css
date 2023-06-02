@@ -77,11 +77,3 @@
     width: 100%;
   }
 }
-/* @media (max-width: 768px){ 
-  .item_servicios{
-    background-color: rgb(103, 175, 20);
-    .container_servicios{      
-      grid-template-columns: repeat(1, 1fr);         
-   }
-  }
- } */
