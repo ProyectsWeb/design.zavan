@@ -16,7 +16,7 @@ const SeccionMain = () => {
       <p className={styles.parrafo_main}>
         Desarrollo web a medida. Creamos soluciones digitales únicas para tu negocio.        
       </p>
-      <div className={styles.btn_main}><p className={styles.parrafo_start}>Inicia Ahora</p></div>
+      <div className={styles.btn_main}><p className={styles.parrafo_start}>Iniciar Ahora</p></div>
 
      </div>
 
