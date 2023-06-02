@@ -13,7 +13,7 @@
 
 @media (max-width: 600px) {
   .terminos_politicas {
-    height: 10rem;
+    height: 15rem;
     text-align: center;
     flex-direction: column;
   }
