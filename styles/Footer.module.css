@@ -3,7 +3,7 @@
   justify-content: space-between;
 }
 .footer h3 {
-  color: #fff;
+  color: rgba(0, 252, 168, 0.9333333333);
   padding-top: 2rem;
   padding-left: 2rem;
   font-family: "Jost", "sans-serif";
@@ -81,6 +81,9 @@
 }
 
 @media (max-width: 600px) {
+  .footer h3 {
+    text-align: center;
+  }
   .footer .container_footer {
     height: auto;
     flex-direction: column;
