@@ -81,9 +81,6 @@
 }
 
 @media (max-width: 600px) {
-  .footer h3 {
-    text-align: center;
-  }
   .footer .container_footer {
     height: auto;
     flex-direction: column;
