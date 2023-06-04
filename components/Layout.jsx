@@ -41,7 +41,7 @@ function subirMenu(e){
         <meta name="description" content={description} />
         <meta name="author" content="Jorge Peraza - DesignZavan" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property='og:image' content="https://zavanaf.vercel.app/_next/image?url=%2Fzavan-link.png&w=128&q=75" />
+        <meta property='og:image' content="https://design-zavan.vercel.app/img/design-zavan13.png" />
         <link rel="icon" href="/dz-zavan.ico" />            
         <title>{title}</title>
      </Head> 
