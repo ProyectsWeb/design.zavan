@@ -10,8 +10,8 @@ export default function Home({data}) {
   return (
     <>
       <Layout 
-        title= "Inicio | DesignZavan"        
-        description = "Descripcion Inicio de mi sitio web"
+        title= "DesignZavan"        
+        description = "En DesignZavan ofrecemos servicios óptimos de desarrollo digital, para ayudar a que tú negocio o proyecto tenga mejor presencia en línea y así aumentar tus posibilidades de alcanzar tus objetivos."
       >     
       <SeccionMain data={data}/> 
       <Presentacion /> 

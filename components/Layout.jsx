@@ -36,9 +36,12 @@ function subirMenu(e){
 
   return (
     <div className={styles.container}> 
-     <Head>          
+     <Head>        
+        <meta name="keywords" content="Diseño web, Desarrollo web, Aplicaciones, Paginas web" />   
         <meta name="description" content={description} />
+        <meta name="author" content="Jorge Peraza - DesignZavan" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property='og:image' content="/dz-zavan.ico" />
         <link rel="icon" href="/dz-zavan.ico" />            
         <title>{title}</title>
      </Head> 
