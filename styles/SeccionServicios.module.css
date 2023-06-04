@@ -1,6 +1,7 @@
 .seccion_servicios {
   display: flex;
   justify-content: space-around;
+  /*  background-color: #030929; */
   background-color: #030929;
   height: 65vh;
   margin: 0 auto;

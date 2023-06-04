@@ -39,7 +39,7 @@ function subirMenu(e){
      <Head>          
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />            
+        <link rel="icon" href="/design-zavan.ico" />            
         <title>{title}</title>
      </Head> 
     <Image src={'/img/collage-fondo-programacion.jpg'}

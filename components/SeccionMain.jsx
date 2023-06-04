@@ -12,7 +12,7 @@ const SeccionMain = () => {
      <div className={styles.titulos_main}>
 
       <RedesSociales />      
-      <h1 className={styles.h1_main}>Brindando los mejores servicios y soluciones</h1>    
+      <h1 className={styles.h1_main}>Brindando servicios y soluciones Especializadas</h1>    
       <p className={styles.parrafo_main}>
         Desarrollo web a medida. Creamos soluciones digitales únicas para tu negocio.        
       </p>

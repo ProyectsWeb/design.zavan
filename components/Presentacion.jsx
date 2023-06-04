@@ -17,7 +17,7 @@ const Presentacion = () => {
       <div className={styles.presentacion} >
        
        <h3 className={styles.design}><span>Alcanza tus Metas Digitales</span></h3>
-       <p className={styles.p_presentacion}>Estás buscando profesionales de desarrollo de aplicaciones y páginas web confiables, precio justo y de alta calidad? <br /><br /> Contáctanos hoy para obtener más información sobre cómo podemos ayudarte a alcanzar tus objetivos digitales.</p>
+       <p className={styles.p_presentacion}>¿En busca de un profesional de desarrollo de páginas y aplicaciones web confiable, precio justo y de excelente calidad? <br /><br /> Contáctanos hoy para obtener más información sobre cómo podemos colaborar a que alcances tus objetivos digitales.</p>
       </div>
     </section>
         
